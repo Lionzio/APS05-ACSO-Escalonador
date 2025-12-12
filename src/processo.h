@@ -3,21 +3,7 @@
 
 using namespace std;
 
-std::vector<std::vector<int>> entradaProcessos() {
-
-//tratamento da entrada
-
-int nProc;
-int quantum;
-int tTroca;
-
-char trashChar;
-
-cin >> nProc;
-cin >> trashChar;
-cin >> quantum;
-cin >> trashChar;
-cin >> tTroca;
+std::vector<std::vector<int>> gerarProcessos(int nProc) {
 
 std::vector<std::vector<int>> processos;
 
@@ -25,6 +11,8 @@ int ID;
 int tempChegada;
 int prioridade;
 int tempoCPU;
+
+char trashChar;
 
 for (int i = 0; i < nProc; i++) {
     cin >> ID;
