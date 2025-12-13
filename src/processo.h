@@ -1,5 +1,14 @@
+#ifndef PROCESSO_H
+#define PROCESSO_H
 #include <iostream>
 #include <vector>
+
+
+struct Processo {
+    int pid;
+    int tempo_restante;
+    int prioridade;
+};
 
 using namespace std;
 
@@ -31,3 +40,4 @@ for (int i = 0; i < nProc; i++) {
 
 return processos;
 }
+#endif
