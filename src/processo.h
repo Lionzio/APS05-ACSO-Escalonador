@@ -10,24 +10,22 @@ struct Processo {
     int tempo_restante;
 };
 
-using namespace std;
-
 std::vector<Processo> gerarProcessos(int nProc) {
 
 char trashChar;
 
 std::vector<Processo> processos;
 
-for (int i; i < nProc; i++) {
-    Processo* temp = new Processo();
+for (int i=0; i < nProc; i++) {
+    Processo* temp = new Processo;
 
-    cin >> temp->pid;
-    cin >> trashChar;
-    cin >> temp->tempo_chegada;
-    cin >> trashChar;
-    cin >> temp->prioridade;
-    cin >> trashChar;
-    cin >> temp->tempo_restante;
+    std::cin >> temp->pid;
+    std::cin >> trashChar;
+    std::cin >> temp->tempo_chegada;
+    std::cin >> trashChar;
+    std::cin >> temp->prioridade;
+    std::cin >> trashChar;
+    std::cin >> temp->tempo_restante;
 
     processos.push_back(*temp);
     delete temp;
