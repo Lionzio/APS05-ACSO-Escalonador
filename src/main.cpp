@@ -1,6 +1,9 @@
 #include <iostream>
 #include <vector>
+
 #include "processo.h"
+#include "round_robin.cpp"
+
 using namespace std;
 
 int nProc;
@@ -20,6 +23,9 @@ int main() {
     //geração de processos
     std::vector<Processo> processos;
     processos = gerarProcessos(nProc);
+
+    //roun robin
+    escalonadorRoundRobin(processos, quantum, tTroca);
 
     return 0;
 
