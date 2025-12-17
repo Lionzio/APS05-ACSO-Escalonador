@@ -8,6 +8,7 @@ struct Processo {
     int tempo_chegada;
     int prioridade;
     int tempo_restante;
+    int tempo_retorno=0;
 };
 
 std::vector<Processo> gerarProcessos(int nProc) {

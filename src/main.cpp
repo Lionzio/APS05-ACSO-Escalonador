@@ -3,6 +3,7 @@
 
 #include "processo.h"
 #include "round_robin.cpp"
+#include "prioridade.cpp"
 
 using namespace std;
 
@@ -24,9 +25,11 @@ int main() {
     std::vector<Processo> processos;
     processos = gerarProcessos(nProc);
 
-    //roun robin
+    //round robin
     escalonadorRoundRobin(processos, quantum, tTroca);
 
-    return 0;
+    //prioridade
+    escalonadorPrioridade(processos, tTroca);
 
+    return 0;
 }
