@@ -39,7 +39,7 @@ void escalonadorPrioridade(std::vector<Processo> processos, int tTroca) {
 
     while (processos_finalizados < n) {
         int indice_escolhido = -1;
-        int maior_prioridade = -1; 
+        int menor_prioridade = INF; 
         int menor_chegada = INF;
 
         // selecionar o próximo processo da fila de prontos
@@ -47,20 +47,26 @@ void escalonadorPrioridade(std::vector<Processo> processos, int tTroca) {
             // o processo deve ter chegado && não ter terminado
             if (processos[i].tempo_chegada <= tempo_atual && !estaConcluido(processos[i])) {
                 // seleção por maior prioridade
-                if (processos[i].prioridade > maior_prioridade) {
-                    maior_prioridade = processos[i].prioridade;
+                if (processos[i].prioridade < menor_prioridade) {
+                    menor_prioridade = processos[i].prioridade;
                     menor_chegada = processos[i].tempo_chegada;
                     indice_escolhido = i;
                 } 
                 // desempate por menor tempo de chegada
-                else if (processos[i].prioridade == maior_prioridade) {
+                else if (processos[i].prioridade == menor_prioridade) {
                     if (processos[i].tempo_chegada < menor_chegada) {
                         menor_chegada = processos[i].tempo_chegada;
                         indice_escolhido = i;
                     }
                 }
-            }
+                //desempate ID
+                else if (processos[i].tempo_chegada == menor_chegada) {
+                    if (processos[i].pid < processos[indice_escolhido].pid) {
+                        indice_escolhido = i;
+                    }
+                }
         }
+    }
 
         // processar a escolha
         if (indice_escolhido != -1) {
@@ -100,7 +106,7 @@ void escalonadorPrioridade(std::vector<Processo> processos, int tTroca) {
 
     saidaPrioridade << "\n" << std::endl;
     saidaPrioridade << "Relatório Final" << std::endl;
-    saidaPrioridade << "Tempo Total: " << tempo_atual - 1 << " ms" << std::endl;
+    saidaPrioridade << "Tempo Total: " << tempo_atual << " ms" << std::endl;
     saidaPrioridade << "Overhead: " << std::fixed << std::setprecision(2) << ((float)tempo_total_trocas/(float)tempo_atual)*100 << " %" << std::endl;
     saidaPrioridade << "Número de Trocas de Contexto: " << trocas_contexto << std::endl;
     for (int j=0; j < processos.size(); j++) {
