@@ -1,0 +1,93 @@
+Processo: 0 executa em 0 ms
+Processo: 0 executa em 1 ms
+Processo: 0 executa em 2 ms
+Processo: 0 executa em 3 ms
+Processo: 0 executa em 4 ms
+Processo: 0 executa em 5 ms
+Processo: 0 executa em 6 ms
+Processo: 0 executa em 7 ms
+Processo: 0 executa em 8 ms
+Processo: 0 executa em 9 ms
+Processo: 0 executa em 10 ms
+Processo: 0 executa em 11 ms
+Processo: 0 executa em 12 ms
+Processo: 0 executa em 13 ms
+Processo: 0 executa em 14 ms
+Processo: 0 executa em 15 ms
+Processo: 0 executa em 16 ms
+Processo: 0 executa em 17 ms
+Processo: 0 executa em 18 ms
+Processo: 0 executa em 19 ms
+Escalonador executa em 20 ms
+Processo: 1 executa em 21 ms
+Processo: 1 executa em 22 ms
+Processo: 1 executa em 23 ms
+Processo: 1 executa em 24 ms
+Processo: 1 executa em 25 ms
+Processo: 1 executa em 26 ms
+Processo: 1 executa em 27 ms
+Processo: 1 executa em 28 ms
+Processo: 1 executa em 29 ms
+Processo: 1 executa em 30 ms
+Processo: 1 executa em 31 ms
+Processo: 1 executa em 32 ms
+Processo: 1 executa em 33 ms
+Processo: 1 executa em 34 ms
+Processo: 1 executa em 35 ms
+Processo: 1 executa em 36 ms
+Processo: 1 executa em 37 ms
+Processo: 1 executa em 38 ms
+Processo: 1 executa em 39 ms
+Processo: 1 executa em 40 ms
+Escalonador executa em 41 ms
+Processo: 2 executa em 42 ms
+Processo: 2 executa em 43 ms
+Processo: 2 executa em 44 ms
+Processo: 2 executa em 45 ms
+Processo: 2 executa em 46 ms
+Processo: 2 executa em 47 ms
+Processo: 2 executa em 48 ms
+Processo: 2 executa em 49 ms
+Processo: 2 executa em 50 ms
+Processo: 2 executa em 51 ms
+Processo: 2 executa em 52 ms
+Processo: 2 executa em 53 ms
+Processo: 2 executa em 54 ms
+Processo: 2 executa em 55 ms
+Processo: 2 executa em 56 ms
+Processo: 2 executa em 57 ms
+Processo: 2 executa em 58 ms
+Processo: 2 executa em 59 ms
+Processo: 2 executa em 60 ms
+Processo: 2 executa em 61 ms
+Escalonador executa em 62 ms
+Processo: 3 executa em 63 ms
+Processo: 3 executa em 64 ms
+Processo: 3 executa em 65 ms
+Processo: 3 executa em 66 ms
+Processo: 3 executa em 67 ms
+Processo: 3 executa em 68 ms
+Processo: 3 executa em 69 ms
+Processo: 3 executa em 70 ms
+Processo: 3 executa em 71 ms
+Processo: 3 executa em 72 ms
+Processo: 3 executa em 73 ms
+Processo: 3 executa em 74 ms
+Processo: 3 executa em 75 ms
+Processo: 3 executa em 76 ms
+Processo: 3 executa em 77 ms
+Processo: 3 executa em 78 ms
+Processo: 3 executa em 79 ms
+Processo: 3 executa em 80 ms
+Processo: 3 executa em 81 ms
+Processo: 3 executa em 82 ms
+
+
+Relatório Final
+Tempo Total: 83 ms
+Overhead: 3.61 %
+Número de Trocas de Contexto: 3
+Tempo de retorno do Processo 1 = 20 ms
+Tempo de retorno do Processo 2 = 41 ms
+Tempo de retorno do Processo 3 = 62 ms
+Tempo de retorno do Processo 4 = 83 ms

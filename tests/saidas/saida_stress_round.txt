@@ -1,0 +1,25 @@
+Processo: 1 executa em 0 ms
+Escalonador executa em 10 ms
+Processo: 2 executa em 11 ms
+Escalonador executa em 21 ms
+Processo: 3 executa em 22 ms
+Escalonador executa em 32 ms
+Processo: 4 executa em 33 ms
+Escalonador executa em 43 ms
+Processo: 1 executa em 44 ms
+Escalonador executa em 54 ms
+Processo: 2 executa em 55 ms
+Escalonador executa em 65 ms
+Processo: 3 executa em 66 ms
+Escalonador executa em 76 ms
+Processo: 4 executa em 77 ms
+
+
+Relatório Final
+Tempo total: 87 ms
+Overhead: 8.05 %
+Número de Trocas de Contexto: 7
+Tempo de retorno do Processo 1 = 54 ms
+Tempo de retorno do Processo 2 = 65 ms
+Tempo de retorno do Processo 3 = 76 ms
+Tempo de retorno do Processo 4 = 87 ms

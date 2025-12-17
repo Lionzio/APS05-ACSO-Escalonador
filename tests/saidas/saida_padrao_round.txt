@@ -1,0 +1,36 @@
+Processo: 1 executa em 0 ms
+Escalonador executa em 20 ms
+Processo: 2 executa em 21 ms
+Escalonador executa em 36 ms
+Processo: 3 executa em 37 ms
+Escalonador executa em 47 ms
+Processo: 4 executa em 48 ms
+Escalonador executa em 68 ms
+Processo: 5 executa em 69 ms
+Escalonador executa em 89 ms
+Processo: 1 executa em 90 ms
+Escalonador executa em 110 ms
+Processo: 4 executa em 111 ms
+Escalonador executa em 131 ms
+Processo: 5 executa em 132 ms
+Escalonador executa em 152 ms
+Processo: 1 executa em 153 ms
+Escalonador executa em 163 ms
+Processo: 4 executa em 164 ms
+Escalonador executa em 184 ms
+Processo: 5 executa em 185 ms
+Escalonador executa em 205 ms
+Processo: 4 executa em 206 ms
+Escalonador executa em 226 ms
+Processo: 4 executa em 227 ms
+
+
+Relatório Final
+Tempo total: 247 ms
+Overhead: 4.86 %
+Número de Trocas de Contexto: 12
+Tempo de retorno do Processo 1 = 163 ms
+Tempo de retorno do Processo 2 = 35 ms
+Tempo de retorno do Processo 3 = 44 ms
+Tempo de retorno do Processo 4 = 242 ms
+Tempo de retorno do Processo 5 = 199 ms
